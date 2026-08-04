@@ -32,7 +32,7 @@ function Navbar() {
           </a>
         </div>
 
-        <h3 className="text-4xl font-bold text-center">SuperBob</h3>
+        <h3 className="text-4xl font-bold text-center">Vizard</h3>
 
         <div className="flex gap-16 items-center">
           <div className="flex justify-center items-center gap-1 hover:text-gray-600 transition-colors">

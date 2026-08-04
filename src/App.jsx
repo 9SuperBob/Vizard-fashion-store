@@ -26,7 +26,7 @@ function App() {
   const [quickViewProduct, setQuickViewProduct] = useState(null);
 
   useEffect(() => {
-    document.title = "SuperBob Fashion Store";
+    document.title = "Vizard Fashion Store";
   }, []);
 
   useEffect(() => {

@@ -7,12 +7,12 @@ function AboutPage() {
         <div className="overflow-hidden rounded-[2.5rem]">
           <img
             src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1400&q=80"
-            alt="SuperBob studio detail"
+            alt="Vizard studio detail"
             className="h-[32rem] w-full object-cover"
           />
         </div>
         <div className="space-y-5">
-          <p className="section-eyebrow">About SuperBob</p>
+          <p className="section-eyebrow">About Vizard</p>
           <h1 className="section-title">
             A label built around proportion, restraint, and repeat wear.
           </h1>

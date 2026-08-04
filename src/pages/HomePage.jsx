@@ -17,7 +17,7 @@ function HomePage({ setQuickViewProduct }) {
         <div className="absolute inset-0">
           <img
             src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1600&q=80"
-            alt="Editorial portrait for SuperBob spring collection"
+            alt="Editorial portrait for Vizard spring collection"
             className="h-full w-full object-cover"
           />
           <div className="absolute inset-0 bg-[linear-gradient(110deg,rgba(22,18,15,0.78),rgba(22,18,15,0.24)_55%,rgba(22,18,15,0.64))]" />
@@ -155,16 +155,17 @@ function HomePage({ setQuickViewProduct }) {
             life.
           </h2>
           <p className="max-w-xl text-base leading-7 text-black/65">
-            เราปรับปรุงหน้าแรกใหม่โดยจัดลำดับชั้นให้ชัดเจนยิ่งขึ้น
-            เว้นระยะห่างมากขึ้น และมีส่วนต่างๆ ที่ให้ข้อมูลที่เป็นประโยชน์จริงๆ
-            ผลลัพธ์ที่ได้ให้ความรู้สึก
-            ใกล้เคียงกับร้านค้าแฟชั่นระดับพรีเมียมมากกว่าแค่ตัวอย่างสาธิต
+            The homepage has been refined with clearer hierarchy, more
+            breathing room, and sections that provide genuinely useful
+            information. The result feels closer to a premium fashion store
+            than a simple demonstration.
           </p>
           <div className="grid gap-5 sm:grid-cols-2">
             <div className="border-t border-black/10 pt-4">
-              <p className="text-3xl text-[var(--ink)]">48 ชั่วโมง</p>
+              <p className="text-3xl text-[var(--ink)]">48 hours</p>
               <p className="mt-2 text-sm text-black/60">
-                โดยทั่วไปแล้ว การปรับแต่งรูปทรงของชิ้นส่วนหลักๆ จะใช้เวลาประมาณเท่านี้
+                Most fit adjustments for core pieces are completed within this
+                timeframe.
               </p>
             </div>
             <div className="border-t border-black/10 pt-4">
