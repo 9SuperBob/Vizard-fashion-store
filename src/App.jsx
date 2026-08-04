@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
-import mensProducts from "./components/Product/MensProducts";
-import womensProducts from "./components/Product/WomensProducts";
+
 import Footer from "./components/layout/Footer";
 import Navbar from "./components/layout/Navbar";
-import QuickViewModal from "./components/products/QuickViewModal";
+
 import { journalEntries, products } from "./data/storefrontData";
 import AboutPage from "./pages/AboutPage";
 import AppointmentsPage from "./pages/AppointmentsPage";
@@ -16,6 +15,9 @@ import MensPage from "./pages/MensPage";
 import ProductDetailPage from "./pages/ProductDetailPage";
 import SizeGuidePage from "./pages/SizeGuidePage";
 import WomensPage from "./pages/WomensPage";
+import mensProducts from "./components/Product/MensProducts";
+import womensProducts from "./components/Product/WomensProducts";
+import QuickViewModal from "./components/products/QuickViewModal";
 import { getPageFromHash, routes } from "./utils/routes";
 
 function App() {
