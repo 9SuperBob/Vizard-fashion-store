@@ -9,3 +9,16 @@ test('parses product and unknown hash routes', () => {
   });
   assert.deepEqual(getPageFromHash('#/unknown'), { page: 'home', slug: null });
 });
+
+test('parses storefront section and journal detail routes', () => {
+  assert.deepEqual(getPageFromHash('#/mens'), { page: 'mens', slug: null });
+  assert.deepEqual(getPageFromHash('#/womens'), { page: 'womens', slug: null });
+  assert.deepEqual(getPageFromHash('#/collection'), {
+    page: 'collection',
+    slug: null,
+  });
+  assert.deepEqual(getPageFromHash('#/journal/travel-wardrobe'), {
+    page: 'journalDetail',
+    slug: 'travel-wardrobe',
+  });
+});
