@@ -178,15 +178,15 @@ https://9superbob.github.io/Vizard-fashion-store/#/
 
 ---
 
-## 👨‍💻 ผู้พัฒนา
+## 👨‍💻 Developer
 
-**Sirawit Nokaum**
+Developed by **SIRAWIT NOKAUM**
 
-นักศึกษาชั้นปีที่ 4 สาขาเทคโนโลยีสารสนเทศ
-มีความสนใจด้าน **Frontend Development, Web Development และ UX/UI Design**
+🎓 Information Technology Student
+🏫 Sripatum University
 
 ---
 
 ## 📄 License
 
-โปรเจกต์นี้จัดทำขึ้นเพื่อการศึกษาและใช้เป็นส่วนหนึ่งของ Portfolio
+This project was created for educational and portfolio purposes.
